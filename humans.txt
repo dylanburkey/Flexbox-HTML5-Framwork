@@ -3,13 +3,17 @@
 
 # TEAM
 
-    Dylan Burkey -- Lead Developer -- @dylanburkey
+    <name> -- <role> -- <twitter>
 
 # THANKS
 
-    Eric Meyers, Bill Burkey and David Perry
+    <name>
 
 # TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+GY COLOPHON
 
     HTML5, CSS3
     jQuery, Modernizr

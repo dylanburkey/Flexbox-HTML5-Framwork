@@ -327,10 +327,12 @@ body {
 /* Structural Wrap */
 
 div#w {
-	width: 90%;
+	width: 100%;
 	padding: 0px 10px 0px 10px;	
 	max-width:90%;
 	margin: 0 auto;
+	box-sizing: border-box;
+	overflow: hidden;
 }
 
 h1#banner {
@@ -352,12 +354,12 @@ form {
 
 }
 
-form input[role="search]{
+form input[role="search"]{
 	width:100px;
 	height:10px;
 	padding:0;
 }
-input#search[placeholder] {
+input#search["placeholder"] {
 	font-size: 11px;	
 }
 
@@ -374,7 +376,7 @@ nav {
 	padding: 5px;	
 }
 	ul{
-		color: red;
+		
 		list-style: none;
 		margin-left: 0;
 		padding-left: 0;
@@ -441,18 +443,18 @@ padding:10px;
 
 	background: #5FB7CD;
 
-  width: 30%;
+ 	 width: 50%;
 
 }
 
 
 
-.box {
+footer.box {
 display: -webkit-box;
 display: -moz-box;
 display: -o-box;
 display: box;
-width: 90%;
+width: 100%;
 }
 
 .flex1 {
@@ -460,8 +462,7 @@ width: 90%;
 -moz-flex-box: 1;
 -o-flex-box: 1;
 flex-box: 1;
-max-width:30%;
-width: 15%;
+width: 30%;
 }
 
 .flex2 {
@@ -469,11 +470,19 @@ width: 15%;
 -moz-flex-box: 2;
 -o-flex-box: 2;
 flex-box: 2;
+width: 40%;
+	
 }
 
-footer.grid{
-width: 90%;
+footer {
+	padding-top:20px;
+	height: 400px;
+	width: 100%;	
+	text-align: center;
+	position: relative;
+	
 }
+
 
 
 
