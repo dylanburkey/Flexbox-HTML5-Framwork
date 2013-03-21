@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Dylan Burkey -- Lead Developer -- @dylanburkey
+
+# THANKS
+
+    Eric Meyers, Bill Burkey and David Perry
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+	PHP, Ruby
+	MySQL, Node.js
+

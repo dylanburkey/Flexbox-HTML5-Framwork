@@ -1,0 +1,206 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<style>
+	
+	* {
+		box-sizing: border-box;
+		position: relative;
+	}
+	
+	body {
+	font-size: 100%;
+	font-family: sans-serif;
+	color: #222;
+	background: #ccc;	
+	background-color:rgba(51,204,255,0.2);
+
+
+	}
+	
+	h1,h2,h3,h4,h5,h6,p {
+		margin: 2px 0px 2px 0px;
+		padding: 0;
+	}
+	
+	h1,h2 {
+		font-size: larger;
+	}
+	
+	h3 {
+		font-size: large;
+	}
+	
+	h4, h5 {
+		font-size: medium;
+	}
+	
+	h6, p, li {
+		font-size: small;	
+	}
+	
+	ul {
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+		font-size: small;
+	}
+	
+	ul li {
+		float: left;	
+	}
+	
+	div#w{
+		margin: 0 auto;
+		width: 980px;
+			background: #fff;	
+
+	}
+	
+	.box-wrap-inner {
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	box-orient: horizontal;
+
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	box-align: center;
+
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	box-direction: normal;
+
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	box-pack: center;
+}
+
+#box-1 {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	box-ordinal-group: 1;
+}
+
+#box-2 {
+	-webkit-box-flex: 6;
+	-moz-box-flex: 6;
+	box-flex: 6;
+
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	box-ordinal-group: 1;
+	background: blue;
+}
+
+#box-3 {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+
+	-webkit-box-ordinal-group: 3;
+	-moz-box-ordinal-group: 3;
+	box-ordinal-group: 3;
+}
+article.bio p {
+	min-content: 300px;	
+}
+
+
+nav {
+	padding: 10px;	
+}
+
+ul#menu-wrap {
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	box-orient: horizontal;
+
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	box-align: start;
+
+	-webkit-box-direction: normal;
+	-moz-box-direction: normal;
+	box-direction: normal;
+
+	-webkit-box-pack: center;
+	-moz-box-pack: justify;
+	box-pack: center;
+}
+
+li.flex {
+	text-align: center;
+	font-variant:small-caps;
+	font-weight: 900;
+	background: #e6e7e8;	
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	column-gap: 2px;
+
+	-webkit-box-ordinal-group: 1;
+	-moz-box-ordinal-group: 1;
+	box-ordinal-group: 1;
+	margin-left: 2px;
+	max-wdith: 175px;
+	width: 30px;
+	padding: 5px;
+	box-shadow: #ccc 5px 8px 10px;
+	
+}
+
+
+
+</style>
+
+</head>	
+
+<body>
+<div id="w">
+	<header>
+    	<h1 role="banner">dylanburkey.com</h1>
+    	<nav role="navigation">
+        	<ul id="menu-wrap">
+            	<li class="flex">home</li>
+                <li class="flex">about</li>
+                <li class="flex">blog</li>
+                <li class="flex">contact</li>
+                <li class="flex">secrets</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end header -->
+<article id="main" role="main" class="box-wrap-inner">
+<div id="box-1">one</div>
+
+<div id="box-2">
+	<article class="bio">
+    	<p>This is my huge bio</p>
+    </article>
+	
+</div>
+
+<div id="box-3">three</div>
+</article>
+<!-- end #main -->
+
+<footer role="contentinfo">
+	
+</footer>
+
+</div>
+</html>

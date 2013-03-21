@@ -1,0 +1,54 @@
+/* Main3.css */
+
+body {
+	background: #555;
+	font-size: 100%;
+	line-height: 1.4;
+	color: #222;
+	font-family: sans-serif, Helvetica;
+}
+
+#w {
+	max-width:1200px;
+	
+}
+
+#page {
+	max-width:980px;
+	width:950px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+h1,h2 {
+	font-size: larger;	
+}
+
+h3 {
+	font-size: medium;
+}
+
+p {
+	
+	font-size: small;
+}
+
+header {
+	width: 100%;
+	background: #666;
+	color:#e6e7e8;
+	
+}
+
+header nav,ul {
+width: 100%;
+float:left;	
+}
+
+
+
+
+
+
+/* Fonts */
+
