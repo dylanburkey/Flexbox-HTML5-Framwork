@@ -231,7 +231,6 @@ td { vertical-align: top; }
 
 /* Dylanburkey.com Color Swatch */
 
-
 .c-mblue  {
 	color: #07455E;
 }
@@ -324,6 +323,10 @@ body {
 	
 }
 
+#main {
+height:500px;	
+}
+
 /* Structural Wrap */
 
 div#w {
@@ -341,6 +344,16 @@ h1#banner {
 		left: -2000px;
 		clear:both;
 		font-size:xx-small;	
+	
+}
+
+
+/* FEAT POSTS */
+
+.focus {
+	float: left;
+	margin: 10px 0px 10px 0px;
+	max-width: 60%;
 	
 }
 
@@ -476,7 +489,7 @@ width: 40%;
 
 footer {
 	padding-top:20px;
-	height: 400px;
+	height: 200px;
 	width: 100%;	
 	text-align: center;
 	position: relative;
@@ -485,9 +498,20 @@ footer {
 
 
 
+article h2 {
+}
 
+article h2 strong {
+		opacity: .8;
+		padding:1px 3px 1px 3px;
+		box-shadow: #ccc 4px 2px 50px;
+		
+}
+h2 span.site-name {
+		color: #07455E;
+	
 
-
+}
 
 
 
