@@ -1,14 +1,33 @@
-/* 
+<?
+### BASE.MAIN.CSS PHP VERSION ###
+### BASIS USES PHP FOR THE TEMPLATE AND LAYOUT DEVELOPMENT ###
+
+## ****** READ BELOW PRIOR TO MAKING ANY EDITS ****** ##
+
+## BASIS FRAMEWORK CREATES A FILE TITLED "BASE.MAIN.CSS" - BASE.MAIN.CSS IS WHERE CSS CHANGES SHOUD BE MADE ##
+
+
    ##############################
     ###  STYLESHEET LAYOUT    ###
     #############################
-
+?>
 
     Document   : main.css
     Created on : March 21, 2013
     Author     : Dylan A Burkey - http://dylanburkey.com;
     Description: The styles below are provided for use with "Basis" - an HTML5/CSS3 Framework that uses Flexbox to create mobile ready,
     responsive layouts. 
+    
+<?php
+
+## CSS VARS
+	// -> a. BASIS COLOR CLASSES
+			//->
+
+
+
+
+?>    
    
 
 
