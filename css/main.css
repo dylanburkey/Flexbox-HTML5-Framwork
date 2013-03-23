@@ -277,7 +277,8 @@ td { vertical-align: top; }
 
 .base-title {
 		background: #07455E;
-
+		color:#fff;
+		font-weight: 800;
 		padding: 2px 3px 2px 3px;
 		box-shadow: #e6e7e8 5px 5px 50px;
 }
@@ -444,6 +445,7 @@ nav#subnav {
 	width:20%;
 	float: right;
 	background: #C03926;
+	color:#fff;
 }
 
 
@@ -511,7 +513,7 @@ width: 40%;
 /* FOOTER STYLES START HERE */
 footer {
 	padding-top:20px;
-	height: /*  200px; Change to AUTO */  auto;
+	height: /*  200px; Change to AUTO */  auto;s
 	width: 100%;	
 	text-align: center;
 	position: relative;
