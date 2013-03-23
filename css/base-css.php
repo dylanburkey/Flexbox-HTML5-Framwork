@@ -22,7 +22,59 @@
 
 ## CSS VARS
 	// -> a. BASIS COLOR CLASSES
-			//->
+			//-> 1. Light Blue
+                $c_lblue = '';
+##          
+            //-> 2. Medium Blue
+                $c_mblue = '';
+                ##          
+            //-> 2. Dark Blue
+                $c_dblue = '';
+* {
+    box-sizing: border-box;
+}
+
+/* Dylanburkey.com Color Swatch */
+
+.c-mblue  {
+    color: #07455E;
+}
+    .bg-mblue {
+        background: #07455E;    
+    }
+
+/* Medium Blue */
+
+
+/* Dark Blue */
+
+.c-darkblue{
+    color: #00313F; 
+}
+
+.bg-darkblue{
+    background: #00313F;
+}
+
+/* Red - Base Color */
+
+.c-red {
+    color: #C03926; 
+}
+    
+    .bg-red {
+        background: #C03926;
+    }
+    
+/* Light Blue */
+
+.c-lblue {
+    color: #B7EFFE;
+}
+    .bg-lblue {
+        background: #B7EFFE;
+    }
+/* End Website Color Swatch Classes */  
 
 
 
@@ -63,8 +115,12 @@ img { /* Needed for mobile */
 
 /* ------------------------- Typography */
 strong {font-weight:bold;}
-p {}
-h1 {}
+p { font-size: small;
+    padding: 4px;
+ }
+h1 {
+        
+}
 h2 {}
 h3 {}
 h4 {}

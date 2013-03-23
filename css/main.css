@@ -272,6 +272,27 @@ td { vertical-align: top; }
 /* End Website Color Swatch Classes */	
 
 
+/* BASE BRANDING CLASSES */
+
+
+.base-title {
+		background: #07455E;
+
+		padding: 2px 3px 2px 3px;
+		box-shadow: #e6e7e8 5px 5px 50px;
+}
+
+/* GLOBAL SITE OPTIONS */
+
+a:link {
+	text-decoration: none;
+	color: #444;
+	display: block;
+}
+
+
+
+
 
 @font-face {
     font-family: 'OpenSansLight';
@@ -353,7 +374,7 @@ h1#banner {
 .focus {
 	float: left;
 	margin: 10px 0px 10px 0px;
-	max-width: 60%;
+	max-width: 66%;
 	
 }
 
@@ -422,6 +443,7 @@ h6,p,li, label {
 nav#subnav {
 	width:20%;
 	float: right;
+	background: #C03926;
 }
 
 
@@ -486,15 +508,34 @@ flex-box: 2;
 width: 40%;
 	
 }
-
+/* FOOTER STYLES START HERE */
 footer {
 	padding-top:20px;
-	height: 200px;
+	height: /*  200px; Change to AUTO */  auto;
 	width: 100%;	
 	text-align: center;
 	position: relative;
 	
 }
+	footer nav {
+		float: left;
+	}
+		footer nav ul li {
+			padding:3px;
+		}
+ 	
+		footer nav ul li a {
+		margin: 2px 0px 2px 2px;
+		padding:2px;
+		width: 100%;
+		text-align: left;
+		background: /* #07455E */ #e6e7e8;
+		opacity: .3;
+		color: #222;
+		font-weight: stronger;
+		
+					
+		}
 
 
 
